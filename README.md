@@ -1,5 +1,7 @@
 # HyperSaw for drumlogue 🐈
 
+<img src="assets/icon.svg" width="96" align="right" alt="icon">
+
 JP-8000 style supersaw oscillator for the Korg drumlogue.
 
 ## Status
