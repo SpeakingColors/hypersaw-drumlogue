@@ -5,7 +5,7 @@
 JP-8000 style supersaw oscillator for the Korg drumlogue.
 
 ## Status
-Early work in progress. Free and open source. Donations welcome (link coming).
+Early work in progress. Free and open source. Donations welcome: https://ko-fi.com/studio87
 
 ## Docs
 - [Roadmap](ROADMAP.md)
