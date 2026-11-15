@@ -12,7 +12,7 @@
 JP-8000 style supersaw oscillator for the Korg drumlogue.
 
 ## Status
-Early work in progress.
+Planning, no code yet. This repo has no source and no unit file, so there is nothing to install or test. See the [web page](docs/index.html) and the [roadmap](ROADMAP.md).
 
 <p align="center">
   <a href="https://ko-fi.com/studio87"><img src="https://img.shields.io/badge/Support_Studio_87-on_Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Support Studio 87 on Ko-fi"></a>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HyperSaw for drumlogue</title>
+<style>
+:root{--bg:#161638;--panel:#1c1c4a;--line:#33403f;--text:#e8e6e1;--muted:#9a9690;--teal:#02EBBA;--pink:#FF1383;--amber:#FFA600}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,Arial,sans-serif}
+main{max-width:860px;margin:0 auto;padding:28px 16px 48px}
+h1{margin:0 0 4px;font-size:34px} h2{color:var(--teal);font-size:20px;margin:28px 0 8px}
+a{color:var(--pink)} .muted{color:var(--muted)}
+img.shot{width:100%;height:auto;border:1px solid var(--line);border-radius:8px;display:block}
+.cap{color:var(--muted);font-size:13px;margin-top:6px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin:12px 0}
+.box b{color:var(--amber)} li{margin:3px 0}
+code{background:#0e0e26;padding:1px 5px;border-radius:4px}
+.links a{display:inline-block;margin:4px 12px 4px 0}
+</style></head><body><main>
+<h1>HyperSaw for drumlogue</h1>
+<p class="muted">Korg drumlogue synth unit, planned · Studio 87</p>
+<p>A JP-8000 style supersaw oscillator for the Korg drumlogue.</p>
+<img class="shot" src="screenshot.png" alt="Illustrated card for HyperSaw for drumlogue">
+<div class="cap">Illustrated card, not a screenshot: no unit exists yet, and a unit has no GUI anyway.</div>
+<div class="box"><b>Status: planning, no code yet</b><p>This repo has no source, no unit file and nothing to install. There is nothing to test on a drumlogue yet.</p></div>
+<h2>What exists today</h2><ul><li>README, ROADMAP.md, LICENSE (MIT), icon and the illustrated card above.</li></ul>
+<h2>What does not exist yet</h2><ul><li>Source code, build files and a unit file (.drmlgunit).</li><li>A parameter layout for the drumlogue.</li><li>An install guide: it will be written from the unit source once there is a unit.</li></ul>
+<h2>Roadmap</h2><p class="muted">Copied from ROADMAP.md in the repo.</p><ul><li>Port the HyperSawX DSP from the minilogue xd unit</li><li>Build with the Korg logue SDK</li><li>Parameter layout for the drumlogue</li></ul>
+<div class="links"><h2>Links</h2><a href="https://github.com/SpeakingColors/hypersaw-drumlogue">Source on GitHub</a><a href="https://github.com/SpeakingColors/hypersaw-drumlogue/blob/main/ROADMAP.md">Roadmap</a><a href="https://github.com/SpeakingColors/hypersaw-xd">HyperSaw for minilogue xd (exists)</a><a href="https://ko-fi.com/studio87">Support Studio 87 on Ko-fi</a></div>
+<p class="cap">MIT. Files from the Korg logue SDK keep their own BSD-3-Clause license. Not affiliated with or endorsed by any hardware maker named here. All trademarks belong to their owners.</p></main></body></html>
